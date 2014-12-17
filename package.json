@@ -1,0 +1,20 @@
+{
+  "name": "School-API",
+  "description": "Eerste school opdracht ùet NodeJS",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "4.9.5",
+    "express-myconnection": "*",
+    "express-validator": "^2.6.0",
+    "mysql": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
