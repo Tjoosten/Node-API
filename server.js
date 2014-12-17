@@ -10,11 +10,11 @@ var express = require('express'), // Routing etc, ...
 // Set debug true if you want to see the debug logger.
 
 global.Pool = MySQL.createPool({
-  host     : '185.13.227.159',
+  host     : '',
   port     : '3306',
-  user     : 'timjoot143_root',
-  password : '0474834880',
-  database : 'timjoot143_FallenSoldiers',
+  user     : '',
+  password : '',
+  database : '',
   debug    : false
 });
 
